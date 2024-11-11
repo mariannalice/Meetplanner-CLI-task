@@ -12,7 +12,7 @@ public class MeetingView
     Console.WriteLine("Enter Title: ");
     string? title = Console.ReadLine();
 
-    Console.WriteLine("Enter Date: ");
+    Console.WriteLine("Enter Date (): ");
     DateTime date = DateTime.Parse(Console.ReadLine());
 
     Console.WriteLine("Enter Location: ");

@@ -1,9 +1,11 @@
 ﻿namespace Meetplanner_CLI_task;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var view = new MeetingView();
+        var controller = new MeetingController(view);
+
+        controller.CreateMeeting();
     }
 }
